@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aec70a73c5415946a73ae9de43614c5, type: 3}
+  m_Name: SnowBlast
+  m_EditorClassIdentifier: 
+  gunName: SnowGun
+  fireRate: 0.5
+  gunBloom: 10
+  gunRecoil: 1
+  gunKickback: 0.08
+  damage: 50
+  gunParticle: {fileID: 4123220932672185236, guid: ccdd0a6ebb341ae438c29a7c0952e465,
+    type: 3}
+  aimSpeed: 15
+  gunPrefab: {fileID: 4814678205048075242, guid: e80ceeeb002829e4490f56765844d5f8,
+    type: 3}
+  bulletImpactPrefab: {fileID: 136330, guid: 9a0c3383523899643a8d0661cfaca4e4, type: 3}
